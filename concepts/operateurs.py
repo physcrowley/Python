@@ -1,6 +1,7 @@
-import math     # pour les fonctions avancées
-    # c'est une bonne pratique de tout importer au début du fichier
-    # pour rendre les outils importés disponibles à tout le programme
+import math     # pour aller au-delà de + - * /
+    # c'est une bonne pratique d'importer tous les modules externes
+    # au début du fichier pour rendre les outils importés disponibles
+    # à tout le programme
 
 # OPÉRATEURS MATHÉMATIQUES -> CALCULS
 # + - / * 
