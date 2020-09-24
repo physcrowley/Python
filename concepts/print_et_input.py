@@ -23,14 +23,18 @@ print("Bienvenue", nom)
 # === 💡 input() DONNE TOUJOURS DU TEXTE ==========================
 #   les fonctions int() et float() sont utilisées quand on a besoin
 #   d'utiliser les valeurs reçues d'input() comme nombres
+
 print("Inscrire un nombre entier")
+
 entier = input() # retourne du texte (type = str)
 print(type(entier), entier) # type() indique le type de la valeur, confirmant str
 print("Le double de la valeur dans 'entier' est", entier * 2) # résultat inattendu
+
 entier = int(entier) # convertir la valeur en int
 print(type(entier), entier)
 print("Le double de la valeur dans 'entier' est", entier * 2) # résultat attendu
 
+# comme on utilise les fonctions habituellement :
 print("Inscrire une valeur décimale")
 decimal = float(input())
 print(type(decimal), decimal)
