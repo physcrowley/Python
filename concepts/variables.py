@@ -29,8 +29,14 @@ print(num * 2)
 num = 25.0
 print(num * 2)
 
+# c'est mieux d'être plus clair avec les noms de variables pour les 
+# utiliser correctement ailleurs dans le programme
+compte = 25
+message = "coucou"
+resultat = 12.5
+
 #EXEMPLE 4 - saisir des valeurs avec Python
 print("Entrer un nombre :")
 valeur = input() # input() donne du texte (str)
-entier = int(valeur) # int() converti en entier (int)
-decimal = float(valeur) # float converti en décimal (float)
+entier = int(valeur) # int() convertit en entier (int)
+decimal = float(valeur) # float convertit en décimal (float)
