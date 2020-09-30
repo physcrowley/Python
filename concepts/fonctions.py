@@ -62,10 +62,10 @@ def addition(a, b):
     result = a + b
     return result
 
-r1 = addition(2, 3)
-print(r1)
+#r1 = addition(2, 3)
+#print(r1)
 
-print(addition(10, 20))
+#print(addition(10, 20))
 
 
 
@@ -87,3 +87,11 @@ def remainder(a, b):
 
 print(remainder(100, 3))
 
+
+/*
+Restant de 10 / 3 (combien de fois 3 entre dans 10?)
+10 - 3 = 7 (1)
+7 - 3 = 4 (2)
+4 - 3 = 1 (3)
+reste 1
+*/
