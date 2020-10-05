@@ -88,10 +88,11 @@ def remainder(a, b):
 print(remainder(100, 3))
 
 
-/*
+"""
 Restant de 10 / 3 (combien de fois 3 entre dans 10?)
 10 - 3 = 7 (1)
 7 - 3 = 4 (2)
-4 - 3 = 1 (3)
-reste 1
-*/
+4 - 3 = 1 (3 fois et il reste 1)
+"""
+
+
