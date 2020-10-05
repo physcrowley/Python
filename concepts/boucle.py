@@ -1,3 +1,10 @@
+###################################
+# Les exemples dans ce fichier sont
+# définis comme des fonctions qui
+# sont appelés seulement à la
+# toute fin dans la partie "script"
+###################################
+
 # Les boucles sont pour répéter des commandes selon une condition.
 
 # on peut s'avoir d'avance le nombre de répétition -> on va utiliser une boucle FOR
