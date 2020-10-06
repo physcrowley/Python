@@ -94,5 +94,7 @@ if __name__ == "__main__":
 
 ## NOTES SUR "if __name__ == "__main__":
 # Quand un fichier python est exécuté, l'interpréteur lui assigne le nom "__main__"
-# Mais c'est possible que toutes les fonctions que tu as définis soient importées
+# Mais c'est possible que toutes les fonctions que tu as définies soient importées
 # pour aider dans un autre fichier python (comme celles définies dans math.py)
+# À ce moment, l'autre fichier est assigné le nom "__main__" et ce qu'on a mis ici
+# dans 'if __name__ == "__main__":' sera ignoré.
