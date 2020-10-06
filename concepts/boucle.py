@@ -3,6 +3,14 @@
 # définis comme des fonctions qui
 # sont appelés seulement à la
 # toute fin dans la partie "script"
+#
+# Changer le nom de la fonction 
+# appelée dans le script pour voir
+# un exemple différent.
+#
+# Cette structure de programme
+# ressemble plus aux programmes
+# typiques en Python
 ###################################
 
 # Les boucles sont pour répéter des commandes selon une condition.
@@ -78,4 +86,13 @@ def exemple4():
 
 
 ## SCRIPT POUR APPELER LES FONCTIONS
-exemple3()
+if __name__ == "__main__": 
+    exemple3() 
+    #   changer le nom de la fonction pour voir les différents exemples
+    #   exemples disponibles : 1, 2a, 2b, 3, 4
+
+
+## NOTES SUR "if __name__ == "__main__":
+# Quand un fichier python est exécuté, l'interpréteur lui assigne le nom "__main__"
+# Mais c'est possible que toutes les fonctions que tu as définis soient importées
+# pour aider dans un autre fichier python (comme celles définies dans math.py)
