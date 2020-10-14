@@ -57,9 +57,10 @@ if __name__ == "__main__":
         choice = input().lower()
 
         if choice == "n":
-            # break
-            playing = False
             print("End of game")
+            # break  # quitter directement la boucle
+            playing = False # modifier la valeur de la condition pour la boucle while
+            
         
         elif choice != "y":
             print(">> you must choose Y or N")
@@ -77,6 +78,11 @@ if __name__ == "__main__":
                         elif r.vx > 0 : car = ">" # bouge vers la droite
                         else: car = "<" # bouge vers la gauche
                         
+                        # Dessiner un mur "|" et placer x fois le nombre d'espaces
+                        # avant le caractère qui indique la position.
+                        # Avant de placer le mur droit, on doit ajouter des espaces pour
+                        # atteindre la pleine largeur, soit un nombre d'espaces égale à
+                        # WIDTH moins la position.
                         print("|" + r.x * " " + car + (WIDTH - r.x) * " " + "|")
                     
             
