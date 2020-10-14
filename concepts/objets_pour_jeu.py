@@ -1,11 +1,11 @@
-""" Ce fichier développe un exemple ou un objet est utilisé de façon
+""" Ce fichier développe un exemple où un objet est utilisé de façon
 similaire à ce qu'on pourrait voir en développant un jeu ou une application.
 """
 
 from random import randint
 
 # on utilise ces valeurs souvent alors c'est mieux de définir une variable
-# afin de suelement avoir à le changer une fois, ici, et éviter d'oublier
+# afin de seulement avoir à le changer une fois, ici, et éviter d'oublier
 # de le changer en quelque part dans notre programme
 WIDTH = 80
 HEIGHT = 60
@@ -61,7 +61,6 @@ if __name__ == "__main__":
             # break  # quitter directement la boucle
             playing = False # modifier la valeur de la condition pour la boucle while
             
-        
         elif choice != "y":
             print(">> you must choose Y or N")
             continue # continue > saute la boucle actuelle, mais part un nouveau cycle
