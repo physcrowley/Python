@@ -23,8 +23,10 @@ class Runner:
         self.y += self.vy
 
         # rebondir aux limites
-        if self.x >= WIDTH or self.x <= 0 : self.vx = -self.vx
-        if self.y >= HEIGHT or self.y <= 0 : self.vy = -self.vy
+        if self.x >= WIDTH or self.x <= 0 : 
+            self.vx = -self.vx
+        if self.y >= HEIGHT or self.y <= 0 : 
+            self.vy = -self.vy
 
 
 
@@ -41,14 +43,15 @@ if __name__ == "__main__":
     
 
     # =========JEU============
-    v_choice = "0" # version
-    while v_choice not in ("1", "2"):
-        print("Which version do you want to play : 1- values | 2- diagrams")
-        v_choice = input()
-        if v_choice not in ("1", "2"):
+
+    version_choice = "0" # version
+    while version_choice not in ("1", "2"):
+        print("Which version do you want to play? 1- values | 2- diagrams")
+        version_choice = input()
+        if version_choice not in ("1", "2"):
             print(">> you must choose 1 or 2")
     
-    print("====We're playing version " + v_choice + "!!!!====")
+    print("====We're playing version " + version_choice + "!!!!====")
     
     
     playing = True
@@ -69,7 +72,7 @@ if __name__ == "__main__":
             for r in runners:
                     r.running() # on court!
 
-                    if v_choice == "1": # version 1 > afficher la position en chiffres
+                    if version_choice == "1": # version 1 > afficher la position en chiffres
                         print(r.name, r.x, r.y)
                     
                     else: # version 2 > visuellement représenter la position horizontale
