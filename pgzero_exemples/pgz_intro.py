@@ -1,3 +1,12 @@
+"""
+Cette version est pour un lancement normal... y inclut sur Repl.it en mode Pygame.
+Les lignes `import pgzrun` et `pgzrun.go()` sont essentiels dans ce cas.
+
+Pour un lancement avec Thonny en mode Pygame Zero
+ou avec la commande `pgzrun` au console (au lieu de `python`), il faut supprimer
+la première et la dernière ligne de l'exemple.
+"""
+
 import pgzrun # pas nécessaire avec Thonny en mode Pygame Zero
 
 WIDTH = 400
@@ -9,13 +18,3 @@ def draw():
 
 
 pgzrun.go() # pas nécessaire avec Thonny en mode Pygame Zero
-
-"""
-les lignes `import pgzrun` et `pgzrun.go()` sont essentiels pour
-tout programme qui est lancé comme un programme Python typique (avec le
-bouton "Run" ou avec la commande `python` au console).
-
-Il ne faut pas les avoir dans le code si tu lances le programme avec la
-commande `pgzrun` au console ou avec un éditeur comme Thonny en mode
-Pygame Zero
-"""
