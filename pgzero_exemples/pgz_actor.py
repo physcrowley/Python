@@ -31,7 +31,5 @@ def update():
         else:
             cat.speed += 1
             cat.sprite.x = 0
-    
-    
 
 pgzrun.go()
