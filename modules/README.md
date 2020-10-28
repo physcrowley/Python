@@ -36,10 +36,9 @@ mf.ma_fonction_a_reutiliser()
 
 ```
 
-# \_\_name\_\_ == "\_\_main\_\_"
+# `__name__ == "__main__"`
 Python assigne automatiquement le nom `__main__` au fichier python qui est exécuté.
 
-Jusqu'à présent, tous nos programmes rentrent dans un seul fichier, alors ils on tous eu le nom `__main__` lors de l'exécution. Par contre, la ligne `import` ajoute le contenu de
-différents fichiers python à ton propre fichier. Leurs noms ne seront pas changés. **Exécuter les fichiers master.py et helper.py pour le voir.**
+Jusqu'à présent, tous nos programmes rentrent dans un seul fichier, alors ils on tous eu le nom `__main__` lors de l'exécution. Par contre, la ligne `import` ajoute le contenu de différents fichiers python à ton propre fichier. Leurs noms ne seront pas changés. **Exécuter les fichiers master.py et helper.py pour le voir.**
 
 Alors la ligne `if __name__ == "__main__":` vérifie si le fichier est celui qui est excécuté actuellement par python. Si non - quand c'est un fichier importé - tout ce qui est sous cette condition n'affecte pas les autres fichiers.
