@@ -1,10 +1,10 @@
 import pgzrun
-import pgz_timer_with_object as t
+import game_time as gt
 
 WIDTH = 800
 HEIGHT = 600
 
-ticks = t.game_time()
+ticks = gt.game_time()
 
 click_right = True
 
